@@ -49,6 +49,15 @@ textarea::placeholder {
   color: #ffffff;
 }
 
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
+textarea {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 button {
   border: none;
   width: 60px;
